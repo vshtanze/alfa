@@ -1,0 +1,162 @@
+body {
+/*	background-image: url(img/bg.jpg) fixed center top no-repeat;*/
+	background: url(../img/bg-fon.png);
+	padding-top: 70px;
+	background-color: #ECECEC;
+}
+img,
+iframe {
+	max-width: 100%;
+}
+
+#top-link-block.affix-top {
+	position: absolute; /* allows it to "slide" up into view */
+	bottom: -82px;
+	right: 10px;
+}
+#top-link-block.affix {
+	position: fixed; /* keeps it on the bottom once in view */
+	bottom: 18px;
+	right: 10px;
+}
+#main-box-news > {
+	
+}
+
+.col-lg-0,
+.col-md-0,
+.col-sm-0,
+.col-xs-0 {
+	display: none;
+}
+.nav > li:first-child {
+	border-left: 1px solid #ccc;
+}
+ul.navbar-nav > li {
+	border-right: 1px solid #ccc;
+}
+.radius-none {
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+.box-norad-nomarg-nopad {
+	margin: 0;
+/*	padding: 0;*/
+	border: 0;
+	border-radius: 0;
+	-webkit-appearance: none;	
+}
+.divider-bottom > li {
+	border-bottom: 1px solid #444;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.bg-white {
+	background-color: #fff;
+}
+.bg-gray {
+	background-color: #333333;
+}
+.bg-black {
+	background-color: #222222;
+	color: #999999;
+}
+.bg-black a {
+	color: #fff;
+}
+.bg-black p {
+	color: #999999;
+}
+.text-white {
+	color: #FFF !important;
+}
+.text-gray {
+	color: #ccc;
+}
+.thumbnail-my{
+	display: block;
+	padding: 15px;
+/*	margin-bottom: 20px;*/
+	line-height: 1.42857143;
+	background-color: transparent;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+/*
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out
+*/
+}
+.thumbnail-my a {
+	color: #333;
+}
+.thumbnail {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.short-block {
+	color: #666;
+}
+.advertising-block > .row:first-child,
+.today-block > .row:first-child,
+.short-block > .row:first-child {
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+	color: #000;
+}
+.advertising-block {
+	padding-top: 10px;
+}
+.advertising-block .row,
+.today-block .row,
+.short-block .row{
+	margin: 0 0 15px 0;
+}
+.short-block .row a {
+	color: #000;
+}
+.today-block .thumbnail {
+	background-color: transparent !important;
+}
+.border-left {
+	border-left: 1px solid #ccc;
+}
+.border-bottom {
+	border-bottom: 1px solid #ccc;
+}
+.border-right {
+	border-right: 1px solid #ccc;
+}
+.short-block-row {
+	display: block;
+	box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+.sbr-time {
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	vertical-align: top;
+}
+.sbr-link {
+	float: left;
+	display: inline-block;
+	line-height: 20px;
+	margin-left: 55px;
+	vertical-align: top;
+}
+.row {
+/*	box-sizing: content-box;*/
+}
+.ads {
+	padding: 15px 0;
+}
+.footer {
+	padding-top: 15px;
+}
