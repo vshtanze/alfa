@@ -29,6 +29,12 @@ iframe {
 .col-xs-0 {
 	display: none;
 }
+.hr {
+	display: block;
+	height: 1px;
+	line-height: 1px;
+	margin: 15px 0;
+}
 .nav > li:first-child {
 	border-left: 1px solid #ccc;
 }
@@ -41,7 +47,6 @@ ul.navbar-nav > li {
 }
 .box-norad-nomarg-nopad {
 	margin: 0;
-/*	padding: 0;*/
 	border: 0;
 	border-radius: 0;
 	-webkit-appearance: none;	
@@ -52,6 +57,9 @@ ul.navbar-nav > li {
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
+}
+.bg-ccc {
+	background-color: #ccc;
 }
 .bg-white {
 	background-color: #fff;
@@ -78,16 +86,10 @@ ul.navbar-nav > li {
 .thumbnail-my{
 	display: block;
 	padding: 15px;
-/*	margin-bottom: 20px;*/
 	line-height: 1.42857143;
 	background-color: transparent;
 	border-right: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-/*
-	-webkit-transition: border .2s ease-in-out;
-	-o-transition: border .2s ease-in-out;
-	transition: border .2s ease-in-out
-*/
 }
 .thumbnail-my a {
 	color: #333;
@@ -159,4 +161,34 @@ ul.navbar-nav > li {
 }
 .footer {
 	padding-top: 15px;
+}
+a.login:visited,
+a.login:link,
+a.login:active,
+.login {
+	color: #fff;
+	font-size: 14px;
+	line-height: 14px;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+/*	text-transform: uppercase;*/
+}
+a.login:hover,
+.login:hover {
+	text-decoration: underline;
+	color: #FCB825;
+}
+.signup-social {
+	font-size: 42px;
+	text-align: center;
+}
+.signup-social a {
+	color: #666;
+	line-height: 100%;
+}
+.signup-social a:hover {
+	color: #286090;
+	text-decoration: none;
 }
