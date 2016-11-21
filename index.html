@@ -50,7 +50,7 @@
 							<a href="#Videos">Videos</a>
 						</li>
 						<li>
-							<a href="#PhotoFeed">Photo Feed</a>
+							<a href="#PhotoFeed">Photos</a>
 						</li>
 					</ul>
 					
@@ -105,6 +105,7 @@
 				</div><!-- /.navbar-collapse -->
 			</div>
 		</nav>
+		
 		
 		<div class="container">
 		
@@ -289,7 +290,7 @@
 			
 			<div id="main-box-news" class="row">
 			
-				<div class="col-md-3 col-sm-5 col-xs-3 nopadding short-block border-left border-right border-bottom">
+				<div id="shortNews" class="col-md-3 col-sm-5 col-xs-3 nopadding short-block border-left border-right border-bottom">
 					<div class="row">
 						<div class="text-uppercase well-sm"><strong>Коротко</strong></div>
 					</div>
@@ -299,24 +300,6 @@
 							<a href="#" class="btn-link"><small>Песков назвал виновных в срыве договоренностей по Сирии</small></a>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-3 col-sm-3 text-right"><small>23:11</small></div>
-						<div class="col-md-9 col-sm-9">
-							<a href="#" class="btn-link"><small>В Афганистане боевики "Талибан" напали на генконсульство Германии</small></a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3 col-sm-3 text-right"><small>23:57</small></div>
-						<div class="col-md-9 col-sm-9">
-							<a href="#" class="btn-link"><small>Умер пассажир рейса Тель-Авив - Москва</small></a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3 col-sm-3 text-right"><small>23:04</small></div>
-						<div class="col-md-9 col-sm-9">
-							<a href="#" class="btn-link"><small>Сборная России по футболу проиграла Катару</small></a>
-						</div>
-					</div>
 				</div>
 				
 				<div class="col-md-6 col-sm-7 col-xs-6 nopadding bg-white today-block">
@@ -324,7 +307,7 @@
 						<div class="text-uppercase well-sm"><strong>Сегодня</strong></div>
 					</div>
 					<div class="row">
-						<div class="col-md-6 nopadding">
+						<div id="todayLeft" class="col-md-6 nopadding">
 							<div class="thumbnail-my">
 								<a href="#">
 									<img src="img/5.jpg" alt="News">
@@ -339,42 +322,14 @@
 									3 Nov, 2016 11:20
 								</p>
 							</div>
-							<div class="thumbnail-my border-bottom">
-								<a href="#">
-									<img src="img/2.jpg" alt="News">
-									<div class="caption">
-										<p>
-											<h5>Роскомнадзор назвал дату блокировки LinkedIn</h5>
-										</p>
-									</div>
-								</a>
-								<p class="well-sm">
-									<span class="glyphicon glyphicon-calendar"></span> 
-									3 Nov, 2016 11:20
-								</p>
-							</div>
 						</div>
-						<div class="col-md-6 nopadding">
+						<div id="todayRight" class="col-md-6 nopadding">
 							<div class="thumbnail-my border-bottom">
 								<a href="#">
 									<img src="img/4.jpg" alt="News">
 									<div class="caption">
 										<p>
 											<h5>Новость</h5>
-										</p>
-									</div>
-								</a>
-								<p class="well-sm">
-									<span class="glyphicon glyphicon-calendar"></span> 
-									3 Nov, 2016 11:20
-								</p>
-							</div>
-							<div class="thumbnail-my border-bottom">
-								<a href="#">
-									<img src="img/3.jpg" alt="News">
-									<div class="caption">
-										<p>
-											<h5>Роскомнадзор назвал дату блокировки LinkedIn</h5>
 										</p>
 									</div>
 								</a>
@@ -409,6 +364,8 @@
 				<i class="glyphicon glyphicon-chevron-up"></i> Back to Top
 			</a>
 		</span><!-- /top-link-block -->
+		
+	</div><!-- /container -->
 	
 	
 	<!-- Modal -->
