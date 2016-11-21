@@ -409,8 +409,115 @@
 				<i class="glyphicon glyphicon-chevron-up"></i> Back to Top
 			</a>
 		</span><!-- /top-link-block -->
-		
-	</div><!-- /container -->
+	
+	
+	<!-- Modal -->
+	<div class="modal fade" id="modalSignIn" tabindex="-1" role="dialog" aria-labelledby="modalSignInLabel">
+		<div class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalSignInLabel">Please sign In</h4>
+				</div>
+				<div class="modal-body">
+					<form class="form-signin">
+<!--						<h2 class="form-signin-heading">Please sign in</h2>-->
+						<p>
+							<label for="inputEmail" class="sr-only">Email address</label>
+							<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+						</p>
+						<p>
+							<label for="inputPassword" class="sr-only">Password</label>
+							<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+						</p>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="remember-me"> Remember me
+							</label>
+						</div>
+						<button class="btn btn-lg btn-primary btn-block" type="submit">Sign In</button>
+					</form>
+					<br>
+					<div class="well-xs text-center">or use</div>
+					<div class="signup-social text-center">
+						<a class="" href="" id="signin-facebook">
+							<span class="fa fa-facebook-official" aria-hidden="true"></span>
+						</a>
+						<a class="" href="" id="signin-twitter">
+							<i class="fa fa-twitter-square" aria-hidden="true"></i>
+						</a>
+						<a class="" href="" id="signin-reddit">
+							<i class="fa fa-reddit-square" aria-hidden="true"></i>
+						</a>
+						<a class="" href="" id="signin-vk">
+							<i class="fa fa-vk" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="well-sm text-center">
+						Not a member? 
+						<button class="btn btn-link" type="button" data-toggle="modal" data-target="#modalSignUp" data-dismiss="modal">Sign Up</button>
+					</div>
+				</div>
+<!--
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+-->
+			</div>
+		</div>
+	</div>
+
+<!-- Modal SignUp -->
+	<div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="modalSignUpLabel">
+		<div class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalSignUpLabel">Please sign Up</h4>
+				</div>
+				<div class="modal-body">
+					<form class="form-signup">
+						<p>
+							<label for="inputEmail" class="sr-only">Email address</label>
+							<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+						</p>
+						<p>
+							<label for="inputPassword" class="sr-only">Password</label>
+							<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+						</p>
+						<button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+					</form>
+					<br>
+					<div class="well-xs text-center">or sign up with social</div>
+					<div class="signup-social text-center">
+						<a class="" href="" id="signup-facebook">
+							<i class="fa fa-facebook-official" aria-hidden="true"></i>
+						</a>
+						<a class="" href="" id="signup-twitter">
+							<i class="fa fa-twitter-square" aria-hidden="true"></i>
+						</a>
+						<a class="" href="" id="signup-reddit">
+							<i class="fa fa-reddit-square" aria-hidden="true"></i>
+						</a>
+						<a class="" href="" id="signup-vk">
+							<i class="fa fa-vk" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="well-sm text-center">
+						Already a member?  
+						<button class="btn btn-link" type="button" data-toggle="modal" data-target="#modalSignIn" data-dismiss="modal">Sign In</button>
+					</div>
+				</div>
+<!--
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+-->
+			</div>
+		</div>
+	</div>	
 
 	<footer class="footer navbar-inverse text-gray">
 		<div class="container">
